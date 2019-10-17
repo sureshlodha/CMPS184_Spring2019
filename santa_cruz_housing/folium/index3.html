@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e9e63e33e71441b88a126798358a3ea1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e9e63e33e71441b88a126798358a3ea1" ></div>
+        
+</body>
+<script>    
+    
+            var map_e9e63e33e71441b88a126798358a3ea1 = L.map(
+                "map_e9e63e33e71441b88a126798358a3ea1",
+                {
+                    center: [37.002951565591445, -121.78177470086023],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3a37be005bdf48e7b42b183311c4dfd7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e9e63e33e71441b88a126798358a3ea1);
+        
+    
+            var marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1 = L.markerClusterGroup(
+                {}
+            );
+            map_e9e63e33e71441b88a126798358a3ea1.addLayer(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+            var marker_af42f8e092b04a1da67da85ac1ec3014 = L.marker(
+                [36.9649535, -122.02214409999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_fe60346b81ad4d2b9f6c704c6ed892dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c17a43394e294062b3688dbaa7923265 = $(`<div id="html_c17a43394e294062b3688dbaa7923265" style="width: 100.0%; height: 100.0%;">('Street:', '110 1st St', 'Beds:', 6, 'Baths:', 4.0, 'Sqft:', 4136, 'Price_Per_Sqft:', 122, 'Year Built:', 1925, 'Trulia Est:', 1814401)</div>`)[0];
+            popup_fe60346b81ad4d2b9f6c704c6ed892dd.setContent(html_c17a43394e294062b3688dbaa7923265);
+        
+
+        marker_af42f8e092b04a1da67da85ac1ec3014.bindPopup(popup_fe60346b81ad4d2b9f6c704c6ed892dd)
+        ;
+
+        
+    
+    
+            var marker_350ef8811ac348ffa3270eb86412e8e6 = L.marker(
+                [36.9661601, -122.02365400000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_b7382c11cb2f448c9146a5839372aa65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f73b88b97604c00b9429bb9d0f094af = $(`<div id="html_9f73b88b97604c00b9429bb9d0f094af" style="width: 100.0%; height: 100.0%;">('Street:', '526 2nd St #203', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 3834, 'Price_Per_Sqft:', 339, 'Year Built:', 1892, 'Trulia Est:', 1797490)</div>`)[0];
+            popup_b7382c11cb2f448c9146a5839372aa65.setContent(html_9f73b88b97604c00b9429bb9d0f094af);
+        
+
+        marker_350ef8811ac348ffa3270eb86412e8e6.bindPopup(popup_b7382c11cb2f448c9146a5839372aa65)
+        ;
+
+        
+    
+    
+            var marker_2a880be623784b7ab22b74acfee7317b = L.marker(
+                [36.9543436, -122.04226640000002],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_7773f8f6055e4856885791578ef2a5f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b106a132a94d423b8165b1e09e7f63dd = $(`<div id="html_b106a132a94d423b8165b1e09e7f63dd" style="width: 100.0%; height: 100.0%;">('Street:', '911 3rd St', 'Beds:', 3, 'Baths:', 2.0, 'Sqft:', 2008, 'Price_Per_Sqft:', 167, 'Year Built:', 1976, 'Trulia Est:', 1558312)</div>`)[0];
+            popup_7773f8f6055e4856885791578ef2a5f1.setContent(html_b106a132a94d423b8165b1e09e7f63dd);
+        
+
+        marker_2a880be623784b7ab22b74acfee7317b.bindPopup(popup_7773f8f6055e4856885791578ef2a5f1)
+        ;
+
+        
+    
+    
+            var marker_9e8807477ed942b093fd7335b4f2a561 = L.marker(
+                [36.9508455, -122.053177],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_b059284e8a0f42b6858cc163e0624e25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0e94e6d7c9a4c5aaf83d344077a987d = $(`<div id="html_a0e94e6d7c9a4c5aaf83d344077a987d" style="width: 100.0%; height: 100.0%;">('Street:', '132 Acadia Ave', 'Beds:', 3, 'Baths:', 2.0, 'Sqft:', 2683, 'Price_Per_Sqft:', 328, 'Year Built:', 1974, 'Trulia Est:', 1867762)</div>`)[0];
+            popup_b059284e8a0f42b6858cc163e0624e25.setContent(html_a0e94e6d7c9a4c5aaf83d344077a987d);
+        
+
+        marker_9e8807477ed942b093fd7335b4f2a561.bindPopup(popup_b059284e8a0f42b6858cc163e0624e25)
+        ;
+
+        
+    
+    
+            var marker_1903594eb3ec437ca7109800e7efe155 = L.marker(
+                [37.001273, -122.12789099999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_5c4a10acf723456e828354af53ebe56c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f677bf4b15443bd8c70e66eebd2a0e9 = $(`<div id="html_4f677bf4b15443bd8c70e66eebd2a0e9" style="width: 100.0%; height: 100.0%;">('Street:', '102 Alamo Ave', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 3576, 'Price_Per_Sqft:', 447, 'Year Built:', 1974, 'Trulia Est:', 1742151)</div>`)[0];
+            popup_5c4a10acf723456e828354af53ebe56c.setContent(html_4f677bf4b15443bd8c70e66eebd2a0e9);
+        
+
+        marker_1903594eb3ec437ca7109800e7efe155.bindPopup(popup_5c4a10acf723456e828354af53ebe56c)
+        ;
+
+        
+    
+    
+            var marker_2c08264280e54acdac30fb718356da2e = L.marker(
+                [37.01147589999999, -122.02243270000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_289e26ac89a3412381a9409c5b30223a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_266ede5aa42042b4a5582966f7783a95 = $(`<div id="html_266ede5aa42042b4a5582966f7783a95" style="width: 100.0%; height: 100.0%;">('Street:', '127 Alamo Ave', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 3209, 'Price_Per_Sqft:', 218, 'Year Built:', 1941, 'Trulia Est:', 1607008)</div>`)[0];
+            popup_289e26ac89a3412381a9409c5b30223a.setContent(html_266ede5aa42042b4a5582966f7783a95);
+        
+
+        marker_2c08264280e54acdac30fb718356da2e.bindPopup(popup_289e26ac89a3412381a9409c5b30223a)
+        ;
+
+        
+    
+    
+            var marker_43ecd78c2fa945b1968e66ff16326255 = L.marker(
+                [36.97626760000001, -122.0441244],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_4152cee7b3bd444aa9f0a543cd1c3044 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc51fd431a644ab3b4fa9fe1b9db8ea0 = $(`<div id="html_fc51fd431a644ab3b4fa9fe1b9db8ea0" style="width: 100.0%; height: 100.0%;">('Street:', '343 Alamo Ave', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 2899, 'Price_Per_Sqft:', 197, 'Year Built:', 1979, 'Trulia Est:', 1702962)</div>`)[0];
+            popup_4152cee7b3bd444aa9f0a543cd1c3044.setContent(html_fc51fd431a644ab3b4fa9fe1b9db8ea0);
+        
+
+        marker_43ecd78c2fa945b1968e66ff16326255.bindPopup(popup_4152cee7b3bd444aa9f0a543cd1c3044)
+        ;
+
+        
+    
+    
+            var marker_fd12331a30ee437e9508bb979958724d = L.marker(
+                [37.00646079999999, -122.0345335],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_a59588de476744548896284c1a49b3e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_371456ce95a143b28f3727ab10eebddb = $(`<div id="html_371456ce95a143b28f3727ab10eebddb" style="width: 100.0%; height: 100.0%;">('Street:', '402 Arroyo Seco', 'Beds:', 4, 'Baths:', 3.5, 'Sqft:', 3378, 'Price_Per_Sqft:', 336, 'Year Built:', 2005, 'Trulia Est:', 1943781)</div>`)[0];
+            popup_a59588de476744548896284c1a49b3e4.setContent(html_371456ce95a143b28f3727ab10eebddb);
+        
+
+        marker_fd12331a30ee437e9508bb979958724d.bindPopup(popup_a59588de476744548896284c1a49b3e4)
+        ;
+
+        
+    
+    
+            var marker_311fb680a6414fbe8cf5971868697f8e = L.marker(
+                [36.972310799999995, -122.02001240000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_b289ff5f2208419197e7c1140142d569 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05dab08435a44e909605e07d5f8fff85 = $(`<div id="html_05dab08435a44e909605e07d5f8fff85" style="width: 100.0%; height: 100.0%;">('Street:', '534 Arroyo Seco', 'Beds:', 6, 'Baths:', 6.0, 'Sqft:', 2970, 'Price_Per_Sqft:', 160, 'Year Built:', 1975, 'Trulia Est:', 1793907)</div>`)[0];
+            popup_b289ff5f2208419197e7c1140142d569.setContent(html_05dab08435a44e909605e07d5f8fff85);
+        
+
+        marker_311fb680a6414fbe8cf5971868697f8e.bindPopup(popup_b289ff5f2208419197e7c1140142d569)
+        ;
+
+        
+    
+    
+            var marker_d1f6ea39c9d74d9195c55bac253d2729 = L.marker(
+                [37.00136, -122.02001240000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_1e69b8ea07b94a74ae6ff4e213cec814 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f76989f11204c41a893f25081440efb = $(`<div id="html_4f76989f11204c41a893f25081440efb" style="width: 100.0%; height: 100.0%;">('Street:', '125 Atherly Ln', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 3857, 'Price_Per_Sqft:', 311, 'Year Built:', 1981, 'Trulia Est:', 1561505)</div>`)[0];
+            popup_1e69b8ea07b94a74ae6ff4e213cec814.setContent(html_4f76989f11204c41a893f25081440efb);
+        
+
+        marker_d1f6ea39c9d74d9195c55bac253d2729.bindPopup(popup_1e69b8ea07b94a74ae6ff4e213cec814)
+        ;
+
+        
+    
+    
+            var marker_36a04b0bbb124949b950ad7f1d9c4081 = L.marker(
+                [37.007903999999996, -122.07110300000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_41aed0b85d264a5e9a69577c1753bddd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d8450730b7d40ab9f8dce5fbd8f329e = $(`<div id="html_5d8450730b7d40ab9f8dce5fbd8f329e" style="width: 100.0%; height: 100.0%;">('Street:', '423 Avalon St', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 3235, 'Price_Per_Sqft:', 371, 'Year Built:', 1996, 'Trulia Est:', 1562097)</div>`)[0];
+            popup_41aed0b85d264a5e9a69577c1753bddd.setContent(html_5d8450730b7d40ab9f8dce5fbd8f329e);
+        
+
+        marker_36a04b0bbb124949b950ad7f1d9c4081.bindPopup(popup_41aed0b85d264a5e9a69577c1753bddd)
+        ;
+
+        
+    
+    
+            var marker_783b22e6bcdb40548b426a4b15aba480 = L.marker(
+                [37.003116, -122.02671809999998],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_be3ab9c682a84f4da35d89c84d729c16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7b9bdce839b48ee874e9bbab609140f = $(`<div id="html_d7b9bdce839b48ee874e9bbab609140f" style="width: 100.0%; height: 100.0%;">('Street:', '120 Averitt St', 'Beds:', 3, 'Baths:', 4.0, 'Sqft:', 2616, 'Price_Per_Sqft:', 726, 'Year Built:', 1930, 'Trulia Est:', 1619120)</div>`)[0];
+            popup_be3ab9c682a84f4da35d89c84d729c16.setContent(html_d7b9bdce839b48ee874e9bbab609140f);
+        
+
+        marker_783b22e6bcdb40548b426a4b15aba480.bindPopup(popup_be3ab9c682a84f4da35d89c84d729c16)
+        ;
+
+        
+    
+    
+            var marker_5b25add53dab49dabda92ebba199cda9 = L.marker(
+                [36.9541903, -122.03353440000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_7d0df9d3a6ff499fab6de8c3c1fa65bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fe0d72378254fe5813538e589079f9a = $(`<div id="html_9fe0d72378254fe5813538e589079f9a" style="width: 100.0%; height: 100.0%;">('Street:', '55 Azalea Ln', 'Beds:', 5, 'Baths:', 4.0, 'Sqft:', 3520, 'Price_Per_Sqft:', 521, 'Year Built:', 1979, 'Trulia Est:', 1828888)</div>`)[0];
+            popup_7d0df9d3a6ff499fab6de8c3c1fa65bb.setContent(html_9fe0d72378254fe5813538e589079f9a);
+        
+
+        marker_5b25add53dab49dabda92ebba199cda9.bindPopup(popup_7d0df9d3a6ff499fab6de8c3c1fa65bb)
+        ;
+
+        
+    
+    
+            var marker_c60b9a535cb24721945bd895dfe6094b = L.marker(
+                [36.9554863, -122.03365590000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_5b30369ab7ae458bacde6a7284e620f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_341c0d10418e4522bbf3f7e4ae7ee330 = $(`<div id="html_341c0d10418e4522bbf3f7e4ae7ee330" style="width: 100.0%; height: 100.0%;">('Street:', '280 Azalea Ln', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 2469, 'Price_Per_Sqft:', 121, 'Year Built:', 1974, 'Trulia Est:', 1746274)</div>`)[0];
+            popup_5b30369ab7ae458bacde6a7284e620f0.setContent(html_341c0d10418e4522bbf3f7e4ae7ee330);
+        
+
+        marker_c60b9a535cb24721945bd895dfe6094b.bindPopup(popup_5b30369ab7ae458bacde6a7284e620f0)
+        ;
+
+        
+    
+    
+            var marker_9b5d449f54ea47cf898d2a9b3e9c804f = L.marker(
+                [36.960879600000005, -122.0336899],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_78d31277266d4f52b1944fc169d786bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_152cd1fb8deb44218d89931bb629cb44 = $(`<div id="html_152cd1fb8deb44218d89931bb629cb44" style="width: 100.0%; height: 100.0%;">('Street:', '120 Baldwin St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 2749, 'Price_Per_Sqft:', 186, 'Year Built:', 2008, 'Trulia Est:', 1770837)</div>`)[0];
+            popup_78d31277266d4f52b1944fc169d786bc.setContent(html_152cd1fb8deb44218d89931bb629cb44);
+        
+
+        marker_9b5d449f54ea47cf898d2a9b3e9c804f.bindPopup(popup_78d31277266d4f52b1944fc169d786bc)
+        ;
+
+        
+    
+    
+            var marker_f7da5d94f5964f7bb7bcca3f1970d778 = L.marker(
+                [36.960313299999996, -122.02716219999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_3fad45dde39641b3ad7674172ab9ac2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61feaec70bcb491397cc4db9e14d7773 = $(`<div id="html_61feaec70bcb491397cc4db9e14d7773" style="width: 100.0%; height: 100.0%;">('Street:', '321 Barson St', 'Beds:', 2, 'Baths:', 2.0, 'Sqft:', 1814, 'Price_Per_Sqft:', 187, 'Year Built:', 1954, 'Trulia Est:', 1586549)</div>`)[0];
+            popup_3fad45dde39641b3ad7674172ab9ac2f.setContent(html_61feaec70bcb491397cc4db9e14d7773);
+        
+
+        marker_f7da5d94f5964f7bb7bcca3f1970d778.bindPopup(popup_3fad45dde39641b3ad7674172ab9ac2f)
+        ;
+
+        
+    
+    
+            var marker_40099e11f537499e83a67af95163d31a = L.marker(
+                [37.0231396, -122.03599890000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_a5239ab1473440a49028261183a285ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2f49b397d6241a69ebaaf82ffa9b4dc = $(`<div id="html_a2f49b397d6241a69ebaaf82ffa9b4dc" style="width: 100.0%; height: 100.0%;">('Street:', '208 Bay St #D', 'Beds:', 4, 'Baths:', 4.5, 'Sqft:', 3163, 'Price_Per_Sqft:', 156, 'Year Built:', 1967, 'Trulia Est:', 1952344)</div>`)[0];
+            popup_a5239ab1473440a49028261183a285ac.setContent(html_a2f49b397d6241a69ebaaf82ffa9b4dc);
+        
+
+        marker_40099e11f537499e83a67af95163d31a.bindPopup(popup_a5239ab1473440a49028261183a285ac)
+        ;
+
+        
+    
+    
+            var marker_91817392f91141bba8cbb4dca6b2b048 = L.marker(
+                [37.0225408, -122.0350442],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_f82321606f1e42798f66922016ec0988 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f497d6a41fff4b178e3dc07ce855c354 = $(`<div id="html_f497d6a41fff4b178e3dc07ce855c354" style="width: 100.0%; height: 100.0%;">('Street:', '208 Bay St #F', 'Beds:', 4, 'Baths:', 2.5, 'Sqft:', 3231, 'Price_Per_Sqft:', 209, 'Year Built:', 1960, 'Trulia Est:', 1797330)</div>`)[0];
+            popup_f82321606f1e42798f66922016ec0988.setContent(html_f497d6a41fff4b178e3dc07ce855c354);
+        
+
+        marker_91817392f91141bba8cbb4dca6b2b048.bindPopup(popup_f82321606f1e42798f66922016ec0988)
+        ;
+
+        
+    
+    
+            var marker_b2451526a16f4524a0fc4d2bc2766af9 = L.marker(
+                [37.020277, -122.03229109999998],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_4c972658e24b46c9807818a64dcddd71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b07c90c75974e2e997955eb187c682d = $(`<div id="html_3b07c90c75974e2e997955eb187c682d" style="width: 100.0%; height: 100.0%;">('Street:', '208 Bay St #G', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 3898, 'Price_Per_Sqft:', 244, 'Year Built:', 1981, 'Trulia Est:', 1915291)</div>`)[0];
+            popup_4c972658e24b46c9807818a64dcddd71.setContent(html_3b07c90c75974e2e997955eb187c682d);
+        
+
+        marker_b2451526a16f4524a0fc4d2bc2766af9.bindPopup(popup_4c972658e24b46c9807818a64dcddd71)
+        ;
+
+        
+    
+    
+            var marker_0d7a76c7471345d49101297833159523 = L.marker(
+                [37.0211611, -122.0320469],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_cb5040555b7f4147a4d2f7a0923806d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb14bbad5ba74fb2a8232dc3f31fe9d8 = $(`<div id="html_eb14bbad5ba74fb2a8232dc3f31fe9d8" style="width: 100.0%; height: 100.0%;">('Street:', '208 Bay St #H', 'Beds:', 4, 'Baths:', 3.5, 'Sqft:', 3743, 'Price_Per_Sqft:', 614, 'Year Built:', 1958, 'Trulia Est:', 1901570)</div>`)[0];
+            popup_cb5040555b7f4147a4d2f7a0923806d7.setContent(html_eb14bbad5ba74fb2a8232dc3f31fe9d8);
+        
+
+        marker_0d7a76c7471345d49101297833159523.bindPopup(popup_cb5040555b7f4147a4d2f7a0923806d7)
+        ;
+
+        
+    
+    
+            var marker_8ae9354f909c400dbc6a0224c3422674 = L.marker(
+                [37.018836, -122.02646399999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_a669e5de47974fed834035bed4222c99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec62c17550824cbc9630f27cbf761879 = $(`<div id="html_ec62c17550824cbc9630f27cbf761879" style="width: 100.0%; height: 100.0%;">('Street:', '147 Bixby St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 3112, 'Price_Per_Sqft:', 151, 'Year Built:', 1980, 'Trulia Est:', 1649182)</div>`)[0];
+            popup_a669e5de47974fed834035bed4222c99.setContent(html_ec62c17550824cbc9630f27cbf761879);
+        
+
+        marker_8ae9354f909c400dbc6a0224c3422674.bindPopup(popup_a669e5de47974fed834035bed4222c99)
+        ;
+
+        
+    
+    
+            var marker_70dbb0ea71e34f7183f37d722bb58851 = L.marker(
+                [37.027196, -122.09738899999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_06149d0cef0e465cae4520899a98c440 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48156a9c131449e89c7e72d28ea920e1 = $(`<div id="html_48156a9c131449e89c7e72d28ea920e1" style="width: 100.0%; height: 100.0%;">('Street:', '181 Blessing Ln', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 4008, 'Price_Per_Sqft:', 231, 'Year Built:', 1986, 'Trulia Est:', 1575904)</div>`)[0];
+            popup_06149d0cef0e465cae4520899a98c440.setContent(html_48156a9c131449e89c7e72d28ea920e1);
+        
+
+        marker_70dbb0ea71e34f7183f37d722bb58851.bindPopup(popup_06149d0cef0e465cae4520899a98c440)
+        ;
+
+        
+    
+    
+            var marker_1c8cace6bd084042b2cc018aaf42fa7c = L.marker(
+                [36.9608345, -122.03484440000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_d5d67558153542949763a7b7d3257aa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b34c01f3295f4393839e01c0b2ee95da = $(`<div id="html_b34c01f3295f4393839e01c0b2ee95da" style="width: 100.0%; height: 100.0%;">('Street:', '270 Braemoor Dr', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 2016, 'Price_Per_Sqft:', 377, 'Year Built:', 2013, 'Trulia Est:', 1571913)</div>`)[0];
+            popup_d5d67558153542949763a7b7d3257aa8.setContent(html_b34c01f3295f4393839e01c0b2ee95da);
+        
+
+        marker_1c8cace6bd084042b2cc018aaf42fa7c.bindPopup(popup_d5d67558153542949763a7b7d3257aa8)
+        ;
+
+        
+    
+    
+            var marker_1a32a89a42274252ae8268805ee70791 = L.marker(
+                [37.003954, -122.007594],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_5ac142d6af3940469d7a87e9130fd6ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d82f0f644d94bc597278d2d425b964c = $(`<div id="html_8d82f0f644d94bc597278d2d425b964c" style="width: 100.0%; height: 100.0%;">('Street:', '300 Branciforte Dr', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 3292, 'Price_Per_Sqft:', 182, 'Year Built:', 2006, 'Trulia Est:', 1640593)</div>`)[0];
+            popup_5ac142d6af3940469d7a87e9130fd6ec.setContent(html_8d82f0f644d94bc597278d2d425b964c);
+        
+
+        marker_1a32a89a42274252ae8268805ee70791.bindPopup(popup_5ac142d6af3940469d7a87e9130fd6ec)
+        ;
+
+        
+    
+    
+            var marker_0fd1eb52ebf74d6b81849ec5b96afb4b = L.marker(
+                [37.018375, -122.01748],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_9cf6a8e6413c4d4d88cd3a62b40bad03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_909dae97a43b40efa72df791d7310552 = $(`<div id="html_909dae97a43b40efa72df791d7310552" style="width: 100.0%; height: 100.0%;">('Street:', '650 Branciforte Dr', 'Beds:', 3, 'Baths:', 3.5, 'Sqft:', 3328, 'Price_Per_Sqft:', 149, 'Year Built:', 1985, 'Trulia Est:', 1663754)</div>`)[0];
+            popup_9cf6a8e6413c4d4d88cd3a62b40bad03.setContent(html_909dae97a43b40efa72df791d7310552);
+        
+
+        marker_0fd1eb52ebf74d6b81849ec5b96afb4b.bindPopup(popup_9cf6a8e6413c4d4d88cd3a62b40bad03)
+        ;
+
+        
+    
+    
+            var marker_15777f84590944f8b6dc0191678df778 = L.marker(
+                [37.0095661, -122.0338009],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_3dc480e4fcaa41ca9724b495428d8d70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4feea2afa4a14c93b75c3987efc836a7 = $(`<div id="html_4feea2afa4a14c93b75c3987efc836a7" style="width: 100.0%; height: 100.0%;">('Street:', '225 Broadway', 'Beds:', 3, 'Baths:', 3.5, 'Sqft:', 2725, 'Price_Per_Sqft:', 202, 'Year Built:', 2005, 'Trulia Est:', 1642741)</div>`)[0];
+            popup_3dc480e4fcaa41ca9724b495428d8d70.setContent(html_4feea2afa4a14c93b75c3987efc836a7);
+        
+
+        marker_15777f84590944f8b6dc0191678df778.bindPopup(popup_3dc480e4fcaa41ca9724b495428d8d70)
+        ;
+
+        
+    
+    
+            var marker_62cef36200154323a3cb6e083a5fdebd = L.marker(
+                [36.9566933, -122.045856],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_b7bdae86d31a40fbb84e49df181b74a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88ab8f606a1a49e29a284cdd3afba7d8 = $(`<div id="html_88ab8f606a1a49e29a284cdd3afba7d8" style="width: 100.0%; height: 100.0%;">('Street:', '131 Campbell St', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 2465, 'Price_Per_Sqft:', 114, 'Year Built:', 1964, 'Trulia Est:', 1677477)</div>`)[0];
+            popup_b7bdae86d31a40fbb84e49df181b74a8.setContent(html_88ab8f606a1a49e29a284cdd3afba7d8);
+        
+
+        marker_62cef36200154323a3cb6e083a5fdebd.bindPopup(popup_b7bdae86d31a40fbb84e49df181b74a8)
+        ;
+
+        
+    
+    
+            var marker_ae048b8327644434a183bd85102885cd = L.marker(
+                [37.0002907, -122.02651829999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_f23f8dc858f246fa8e255da82a78d783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebdd8a7ae7044e56b20b8f76ecc815ea = $(`<div id="html_ebdd8a7ae7044e56b20b8f76ecc815ea" style="width: 100.0%; height: 100.0%;">('Street:', '407 Carbonera Dr', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 3092, 'Price_Per_Sqft:', 495, 'Year Built:', 1980, 'Trulia Est:', 1664234)</div>`)[0];
+            popup_f23f8dc858f246fa8e255da82a78d783.setContent(html_ebdd8a7ae7044e56b20b8f76ecc815ea);
+        
+
+        marker_ae048b8327644434a183bd85102885cd.bindPopup(popup_f23f8dc858f246fa8e255da82a78d783)
+        ;
+
+        
+    
+    
+            var marker_df85b4924ecf42b7b0731fc71cae529b = L.marker(
+                [36.9752036, -122.0402615],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_cd367a74e48b4e84b0406685cad3bf67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a82b9d90eef74cad828c8b6a7b21b4bf = $(`<div id="html_a82b9d90eef74cad828c8b6a7b21b4bf" style="width: 100.0%; height: 100.0%;">('Street:', '106 Cardiff Ct', 'Beds:', 4, 'Baths:', 3.5, 'Sqft:', 2771, 'Price_Per_Sqft:', 269, 'Year Built:', 1969, 'Trulia Est:', 1823995)</div>`)[0];
+            popup_cd367a74e48b4e84b0406685cad3bf67.setContent(html_a82b9d90eef74cad828c8b6a7b21b4bf);
+        
+
+        marker_df85b4924ecf42b7b0731fc71cae529b.bindPopup(popup_cd367a74e48b4e84b0406685cad3bf67)
+        ;
+
+        
+    
+    
+            var marker_0e67c3bee2e34809a5ef4252f3d2c110 = L.marker(
+                [36.9640787, -122.0500295],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_e5305517657a45cb9ee8c082f792f901 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_261c457ead5e4512a8c08fef49d49e1a = $(`<div id="html_261c457ead5e4512a8c08fef49d49e1a" style="width: 100.0%; height: 100.0%;">('Street:', '111 Cardiff Ct', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 2877, 'Price_Per_Sqft:', 181, 'Year Built:', 1991, 'Trulia Est:', 1657915)</div>`)[0];
+            popup_e5305517657a45cb9ee8c082f792f901.setContent(html_261c457ead5e4512a8c08fef49d49e1a);
+        
+
+        marker_0e67c3bee2e34809a5ef4252f3d2c110.bindPopup(popup_e5305517657a45cb9ee8c082f792f901)
+        ;
+
+        
+    
+    
+            var marker_3c5ad8d996b54567b49f8167dc51de4a = L.marker(
+                [36.959430100000006, -122.0290038],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_6e6a132828854ba890b3338346743848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a77106d79a64f96ad18f32a6c257e47 = $(`<div id="html_3a77106d79a64f96ad18f32a6c257e47" style="width: 100.0%; height: 100.0%;">('Street:', '128 Castillion Ter', 'Beds:', 4, 'Baths:', 4.0, 'Sqft:', 2240, 'Price_Per_Sqft:', 156, 'Year Built:', 1961, 'Trulia Est:', 1847982)</div>`)[0];
+            popup_6e6a132828854ba890b3338346743848.setContent(html_3a77106d79a64f96ad18f32a6c257e47);
+        
+
+        marker_3c5ad8d996b54567b49f8167dc51de4a.bindPopup(popup_6e6a132828854ba890b3338346743848)
+        ;
+
+        
+    
+    
+            var marker_3e17aaa867f54e22a5a11a5dc6486638 = L.marker(
+                [36.972300700000005, -122.0430144],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_d94f764a826e4b2291e7fcac641ce336 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea4ff6539d7843759c94f1ce9e4bce99 = $(`<div id="html_ea4ff6539d7843759c94f1ce9e4bce99" style="width: 100.0%; height: 100.0%;">('Street:', '218 Castillion Ter', 'Beds:', 2, 'Baths:', 2.5, 'Sqft:', 2515, 'Price_Per_Sqft:', 147, 'Year Built:', 1920, 'Trulia Est:', 1581843)</div>`)[0];
+            popup_d94f764a826e4b2291e7fcac641ce336.setContent(html_ea4ff6539d7843759c94f1ce9e4bce99);
+        
+
+        marker_3e17aaa867f54e22a5a11a5dc6486638.bindPopup(popup_d94f764a826e4b2291e7fcac641ce336)
+        ;
+
+        
+    
+    
+            var marker_73dd4eb424634901bdae662f3c98310d = L.marker(
+                [36.9724196, -122.0441244],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_058f9c18e57f42e4912a6f5423f2aec4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0f1d2de4cdd43b8b56f81e6bec32fb8 = $(`<div id="html_c0f1d2de4cdd43b8b56f81e6bec32fb8" style="width: 100.0%; height: 100.0%;">('Street:', '115 Cedar St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 1703, 'Price_Per_Sqft:', 361, 'Year Built:', 1972, 'Trulia Est:', 1848430)</div>`)[0];
+            popup_058f9c18e57f42e4912a6f5423f2aec4.setContent(html_c0f1d2de4cdd43b8b56f81e6bec32fb8);
+        
+
+        marker_73dd4eb424634901bdae662f3c98310d.bindPopup(popup_058f9c18e57f42e4912a6f5423f2aec4)
+        ;
+
+        
+    
+    
+            var marker_8a79ce99d454414c94deb9978d6c31b7 = L.marker(
+                [36.97310220000001, -122.04392460000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_4d882556df3d4cc9b9e5d762488120e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f0bdf427f654ae9a9ae648e91f2d9d5 = $(`<div id="html_8f0bdf427f654ae9a9ae648e91f2d9d5" style="width: 100.0%; height: 100.0%;">('Street:', '116 Cedar St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 3373, 'Price_Per_Sqft:', 256, 'Year Built:', 1949, 'Trulia Est:', 1852777)</div>`)[0];
+            popup_4d882556df3d4cc9b9e5d762488120e0.setContent(html_8f0bdf427f654ae9a9ae648e91f2d9d5);
+        
+
+        marker_8a79ce99d454414c94deb9978d6c31b7.bindPopup(popup_4d882556df3d4cc9b9e5d762488120e0)
+        ;
+
+        
+    
+    
+            var marker_f5631eb53ab04ac5a85226eb262c54d2 = L.marker(
+                [36.9670245, -122.0202122],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_c915b305265e411ca862236192da8ad4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21fd1c33332142869c60d2433922e774 = $(`<div id="html_21fd1c33332142869c60d2433922e774" style="width: 100.0%; height: 100.0%;">('Street:', '320 Cleveland Ave', 'Beds:', 7, 'Baths:', 4.0, 'Sqft:', 2964, 'Price_Per_Sqft:', 243, 'Year Built:', 1965, 'Trulia Est:', 1699195)</div>`)[0];
+            popup_c915b305265e411ca862236192da8ad4.setContent(html_21fd1c33332142869c60d2433922e774);
+        
+
+        marker_f5631eb53ab04ac5a85226eb262c54d2.bindPopup(popup_c915b305265e411ca862236192da8ad4)
+        ;
+
+        
+    
+    
+            var marker_81d79df20b6d4a6b8e265ad19420abc7 = L.marker(
+                [36.960417299999996, -122.02769509999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_43454cf433f64a6c908a13201ba4e3b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_330cb719d1044b9db80e76d39889899f = $(`<div id="html_330cb719d1044b9db80e76d39889899f" style="width: 100.0%; height: 100.0%;">('Street:', '315 Cliff St', 'Beds:', 3, 'Baths:', 2.0, 'Sqft:', 2002, 'Price_Per_Sqft:', 199, 'Year Built:', 1908, 'Trulia Est:', 1584228)</div>`)[0];
+            popup_43454cf433f64a6c908a13201ba4e3b6.setContent(html_330cb719d1044b9db80e76d39889899f);
+        
+
+        marker_81d79df20b6d4a6b8e265ad19420abc7.bindPopup(popup_43454cf433f64a6c908a13201ba4e3b6)
+        ;
+
+        
+    
+    
+            var marker_b860536e084142028429c713bb65f19d = L.marker(
+                [36.979753, -122.0461446],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_69b81d8105cc4a1f9efb333266ba034b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a0efce4dd074f6eb1d31cb22487105f = $(`<div id="html_5a0efce4dd074f6eb1d31cb22487105f" style="width: 100.0%; height: 100.0%;">('Street:', '412 Cliff St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 3791, 'Price_Per_Sqft:', 448, 'Year Built:', 1984, 'Trulia Est:', 1804908)</div>`)[0];
+            popup_69b81d8105cc4a1f9efb333266ba034b.setContent(html_5a0efce4dd074f6eb1d31cb22487105f);
+        
+
+        marker_b860536e084142028429c713bb65f19d.bindPopup(popup_69b81d8105cc4a1f9efb333266ba034b)
+        ;
+
+        
+    
+    
+            var marker_cf62313ec7284ab99a58136c629995a7 = L.marker(
+                [36.979940500000005, -122.0462112],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_294530c45e39448da4319c12b68e38da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4d9571e6371495e993fbfeba9ed8f5f = $(`<div id="html_c4d9571e6371495e993fbfeba9ed8f5f" style="width: 100.0%; height: 100.0%;">('Street:', '420 Cliff St', 'Beds:', 4, 'Baths:', 2.5, 'Sqft:', 4024, 'Price_Per_Sqft:', 174, 'Year Built:', 1982, 'Trulia Est:', 1594687)</div>`)[0];
+            popup_294530c45e39448da4319c12b68e38da.setContent(html_c4d9571e6371495e993fbfeba9ed8f5f);
+        
+
+        marker_cf62313ec7284ab99a58136c629995a7.bindPopup(popup_294530c45e39448da4319c12b68e38da)
+        ;
+
+        
+    
+    
+            var marker_c18c665c1a3141feaab415d40f33aeba = L.marker(
+                [36.9756831, -122.0587312],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_b259ee21bd08497395f4fc682ccbcbc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85bd777a0c194ddabec9fb29f0fd16d5 = $(`<div id="html_85bd777a0c194ddabec9fb29f0fd16d5" style="width: 100.0%; height: 100.0%;">('Street:', '11 Clubhouse Rd', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 3324, 'Price_Per_Sqft:', 206, 'Year Built:', 1995, 'Trulia Est:', 1854048)</div>`)[0];
+            popup_b259ee21bd08497395f4fc682ccbcbc9.setContent(html_85bd777a0c194ddabec9fb29f0fd16d5);
+        
+
+        marker_c18c665c1a3141feaab415d40f33aeba.bindPopup(popup_b259ee21bd08497395f4fc682ccbcbc9)
+        ;
+
+        
+    
+    
+            var marker_c27df123e5af42ecbd738e9e08760cac = L.marker(
+                [36.9781907, -122.03797720000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_ba12fd06560e45f683bb4d8d36fbf2c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfb70ae4cabd4228af5ca4ec01f511ce = $(`<div id="html_cfb70ae4cabd4228af5ca4ec01f511ce" style="width: 100.0%; height: 100.0%;">('Street:', '119 Coalinga Way', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 2834, 'Price_Per_Sqft:', 127, 'Year Built:', 1963, 'Trulia Est:', 1665683)</div>`)[0];
+            popup_ba12fd06560e45f683bb4d8d36fbf2c9.setContent(html_cfb70ae4cabd4228af5ca4ec01f511ce);
+        
+
+        marker_c27df123e5af42ecbd738e9e08760cac.bindPopup(popup_ba12fd06560e45f683bb4d8d36fbf2c9)
+        ;
+
+        
+    
+    
+            var marker_db3dfd0246c7428badf6711192a86b30 = L.marker(
+                [36.950312, -122.04825359999998],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_5f903b20e34f47bd92974606acbdf0b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53ee7b66f08046f49cea35bea37995e3 = $(`<div id="html_53ee7b66f08046f49cea35bea37995e3" style="width: 100.0%; height: 100.0%;">('Street:', '420 Columbia St', 'Beds:', 3, 'Baths:', 2.0, 'Sqft:', 2125, 'Price_Per_Sqft:', 296, 'Year Built:', 1978, 'Trulia Est:', 1958302)</div>`)[0];
+            popup_5f903b20e34f47bd92974606acbdf0b9.setContent(html_53ee7b66f08046f49cea35bea37995e3);
+        
+
+        marker_db3dfd0246c7428badf6711192a86b30.bindPopup(popup_5f903b20e34f47bd92974606acbdf0b9)
+        ;
+
+        
+    
+    
+            var marker_7e887fb7cc83417e893e51b3ecb981f3 = L.marker(
+                [36.9566716, -122.03262409999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_aefe2a052b0745e5829b0f89d59c43ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_315690bf28ed400a92df7e32b01703e1 = $(`<div id="html_315690bf28ed400a92df7e32b01703e1" style="width: 100.0%; height: 100.0%;">('Street:', '520 Columbia St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 3188, 'Price_Per_Sqft:', 168, 'Year Built:', 1985, 'Trulia Est:', 1861751)</div>`)[0];
+            popup_aefe2a052b0745e5829b0f89d59c43ef.setContent(html_315690bf28ed400a92df7e32b01703e1);
+        
+
+        marker_7e887fb7cc83417e893e51b3ecb981f3.bindPopup(popup_aefe2a052b0745e5829b0f89d59c43ef)
+        ;
+
+        
+    
+    
+            var marker_070bf2f141664bce98262bb11804e59e = L.marker(
+                [36.972723200000004, -122.05581219999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_8542891f46ba49b587e90844715a8ec3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a42d1032a8634dc7afa4409663711e89 = $(`<div id="html_a42d1032a8634dc7afa4409663711e89" style="width: 100.0%; height: 100.0%;">('Street:', '711 Columbia St', 'Beds:', 5, 'Baths:', 3.5, 'Sqft:', 3088, 'Price_Per_Sqft:', 126, 'Year Built:', 1980, 'Trulia Est:', 1758716)</div>`)[0];
+            popup_8542891f46ba49b587e90844715a8ec3.setContent(html_a42d1032a8634dc7afa4409663711e89);
+        
+
+        marker_070bf2f141664bce98262bb11804e59e.bindPopup(popup_8542891f46ba49b587e90844715a8ec3)
+        ;
+
+        
+    
+    
+            var marker_ce08f383593945aebe028b232dd002ae = L.marker(
+                [37.030287200000004, -122.0283122],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_749abeb4ae654e6c89916581615f836b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c876209a579a464ab6bea5994ecb0ecc = $(`<div id="html_c876209a579a464ab6bea5994ecb0ecc" style="width: 100.0%; height: 100.0%;">('Street:', '815 Columbia St', 'Beds:', 4, 'Baths:', 4.0, 'Sqft:', 4146, 'Price_Per_Sqft:', 312, 'Year Built:', 1949, 'Trulia Est:', 1938991)</div>`)[0];
+            popup_749abeb4ae654e6c89916581615f836b.setContent(html_c876209a579a464ab6bea5994ecb0ecc);
+        
+
+        marker_ce08f383593945aebe028b232dd002ae.bindPopup(popup_749abeb4ae654e6c89916581615f836b)
+        ;
+
+        
+    
+    
+            var marker_f098178d5c9145e09e2d86618fc153ab = L.marker(
+                [37.0170782, -122.0326463],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_98bc8b67d0154dc09773c50e8085b258 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e463c3ce1f2a457d9163c6993ec4596b = $(`<div id="html_e463c3ce1f2a457d9163c6993ec4596b" style="width: 100.0%; height: 100.0%;">('Street:', '903 Columbia St', 'Beds:', 5, 'Baths:', 3.5, 'Sqft:', 3769, 'Price_Per_Sqft:', 127, 'Year Built:', 1966, 'Trulia Est:', 1694875)</div>`)[0];
+            popup_98bc8b67d0154dc09773c50e8085b258.setContent(html_e463c3ce1f2a457d9163c6993ec4596b);
+        
+
+        marker_f098178d5c9145e09e2d86618fc153ab.bindPopup(popup_98bc8b67d0154dc09773c50e8085b258)
+        ;
+
+        
+    
+    
+            var marker_7c0bf810248a41ba8c3fe62d0565e8f0 = L.marker(
+                [37.003721399999996, -122.0294713],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_027543e58e844928840a0d0fa97ced65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a1d87f780b541d994a042eb954ea10d = $(`<div id="html_9a1d87f780b541d994a042eb954ea10d" style="width: 100.0%; height: 100.0%;">('Street:', '12 Comstock Ln', 'Beds:', 4, 'Baths:', 3.5, 'Sqft:', 2617, 'Price_Per_Sqft:', 166, 'Year Built:', 1972, 'Trulia Est:', 1867192)</div>`)[0];
+            popup_027543e58e844928840a0d0fa97ced65.setContent(html_9a1d87f780b541d994a042eb954ea10d);
+        
+
+        marker_7c0bf810248a41ba8c3fe62d0565e8f0.bindPopup(popup_027543e58e844928840a0d0fa97ced65)
+        ;
+
+        
+    
+    
+            var marker_661b202d78234bc9b5091c2168937d88 = L.marker(
+                [37.0120202, -122.0286498],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_03cb7a9f480641b589d0d1b4ea237bca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2aaf34dee637441391573c567a41e264 = $(`<div id="html_2aaf34dee637441391573c567a41e264" style="width: 100.0%; height: 100.0%;">('Street:', '120 Continental St', 'Beds:', 4, 'Baths:', 2.5, 'Sqft:', 3313, 'Price_Per_Sqft:', 253, 'Year Built:', 1990, 'Trulia Est:', 1675356)</div>`)[0];
+            popup_03cb7a9f480641b589d0d1b4ea237bca.setContent(html_2aaf34dee637441391573c567a41e264);
+        
+
+        marker_661b202d78234bc9b5091c2168937d88.bindPopup(popup_03cb7a9f480641b589d0d1b4ea237bca)
+        ;
+
+        
+    
+    
+            var marker_a90420b4b9c24309bca8b9b651f003fa = L.marker(
+                [36.9555651, -122.029205],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_6d4a116391e849d586e2cac9663a3ca0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3fb81ba475d49258b76556c6e365e96 = $(`<div id="html_f3fb81ba475d49258b76556c6e365e96" style="width: 100.0%; height: 100.0%;">('Street:', '320 Continental St', 'Beds:', 2, 'Baths:', 2.0, 'Sqft:', 2092, 'Price_Per_Sqft:', 664, 'Year Built:', 2003, 'Trulia Est:', 1849486)</div>`)[0];
+            popup_6d4a116391e849d586e2cac9663a3ca0.setContent(html_f3fb81ba475d49258b76556c6e365e96);
+        
+
+        marker_a90420b4b9c24309bca8b9b651f003fa.bindPopup(popup_6d4a116391e849d586e2cac9663a3ca0)
+        ;
+
+        
+    
+    
+            var marker_fd8c08a5b7064e89ac9487c9dc4141ae = L.marker(
+                [36.9564709, -122.03404509999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_28a585cb242b4d65aee454a26a654f55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a8f2cef636844a295eb6e6f42e927fd = $(`<div id="html_1a8f2cef636844a295eb6e6f42e927fd" style="width: 100.0%; height: 100.0%;">('Street:', '311 Coulson Ave', 'Beds:', 4, 'Baths:', 2.0, 'Sqft:', 2735, 'Price_Per_Sqft:', 338, 'Year Built:', 1952, 'Trulia Est:', 1666181)</div>`)[0];
+            popup_28a585cb242b4d65aee454a26a654f55.setContent(html_1a8f2cef636844a295eb6e6f42e927fd);
+        
+
+        marker_fd8c08a5b7064e89ac9487c9dc4141ae.bindPopup(popup_28a585cb242b4d65aee454a26a654f55)
+        ;
+
+        
+    
+    
+            var marker_7813db8126f44b7db216ac5a33ad4e44 = L.marker(
+                [36.9568349, -122.03408950000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_913f190f03e844098c3f54f9b7b488ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1906241aa48c42ff8b0ae099f512bafd = $(`<div id="html_1906241aa48c42ff8b0ae099f512bafd" style="width: 100.0%; height: 100.0%;">('Street:', '318 Coulson Ave', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 2424, 'Price_Per_Sqft:', 192, 'Year Built:', 2003, 'Trulia Est:', 1848649)</div>`)[0];
+            popup_913f190f03e844098c3f54f9b7b488ac.setContent(html_1906241aa48c42ff8b0ae099f512bafd);
+        
+
+        marker_7813db8126f44b7db216ac5a33ad4e44.bindPopup(popup_913f190f03e844098c3f54f9b7b488ac)
+        ;
+
+        
+    
+    
+            var marker_d4d93a1abe4a4718b7fc19ed054d9642 = L.marker(
+                [36.95624829999999, -122.03895770000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_cb1ca4f94fc84597973014c329992187 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f18a9fcc542f44f9be775822f65d8c5d = $(`<div id="html_f18a9fcc542f44f9be775822f65d8c5d" style="width: 100.0%; height: 100.0%;">('Street:', '84 Country Estates Dr', 'Beds:', 3, 'Baths:', 3.5, 'Sqft:', 2649, 'Price_Per_Sqft:', 164, 'Year Built:', 1991, 'Trulia Est:', 1816993)</div>`)[0];
+            popup_cb1ca4f94fc84597973014c329992187.setContent(html_f18a9fcc542f44f9be775822f65d8c5d);
+        
+
+        marker_d4d93a1abe4a4718b7fc19ed054d9642.bindPopup(popup_cb1ca4f94fc84597973014c329992187)
+        ;
+
+        
+    
+    
+            var marker_d75d7c00d9e34b9a91864a3e266bc6cb = L.marker(
+                [36.95531210000001, -122.0421774],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_947ce46bbcff49308d41a6cc97766f3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a87a89454f8440108922baf934b626e4 = $(`<div id="html_a87a89454f8440108922baf934b626e4" style="width: 100.0%; height: 100.0%;">('Street:', '340 Country Estates Dr', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 2388, 'Price_Per_Sqft:', 406, 'Year Built:', 1950, 'Trulia Est:', 1729506)</div>`)[0];
+            popup_947ce46bbcff49308d41a6cc97766f3d.setContent(html_a87a89454f8440108922baf934b626e4);
+        
+
+        marker_d75d7c00d9e34b9a91864a3e266bc6cb.bindPopup(popup_947ce46bbcff49308d41a6cc97766f3d)
+        ;
+
+        
+    
+    
+            var marker_c6c6273ee9f943cc89d10496312830fd = L.marker(
+                [36.955141999999995, -122.0431769],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_dfb2c44cbe98486eb40e089333a9e3f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fab8f97b4174577bac6e658c69d4f16 = $(`<div id="html_3fab8f97b4174577bac6e658c69d4f16" style="width: 100.0%; height: 100.0%;">('Street:', '353 Country Estates Dr', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 3432, 'Price_Per_Sqft:', 200, 'Year Built:', 1969, 'Trulia Est:', 1839719)</div>`)[0];
+            popup_dfb2c44cbe98486eb40e089333a9e3f8.setContent(html_3fab8f97b4174577bac6e658c69d4f16);
+        
+
+        marker_c6c6273ee9f943cc89d10496312830fd.bindPopup(popup_dfb2c44cbe98486eb40e089333a9e3f8)
+        ;
+
+        
+    
+    
+            var marker_b18a62888d974de2a32b79ad17763c3f = L.marker(
+                [37.004141600000004, -122.0320247],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_0e3e0a3ba939444abb8d91e57bfd9efc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d84e5f93a082477b87b73b1f040fb403 = $(`<div id="html_d84e5f93a082477b87b73b1f040fb403" style="width: 100.0%; height: 100.0%;">('Street:', '105 Country Estates Ter', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 3521, 'Price_Per_Sqft:', 409, 'Year Built:', 1969, 'Trulia Est:', 1922655)</div>`)[0];
+            popup_0e3e0a3ba939444abb8d91e57bfd9efc.setContent(html_d84e5f93a082477b87b73b1f040fb403);
+        
+
+        marker_b18a62888d974de2a32b79ad17763c3f.bindPopup(popup_0e3e0a3ba939444abb8d91e57bfd9efc)
+        ;
+
+        
+    
+    
+            var marker_7e82fd8218a44dc79aae8181d2d44380 = L.marker(
+                [36.9719836, -122.02147790000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_a1ccdf7091f1482984d940aa10a11474 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af8af80d813d4fa3943bd3aebc562c2e = $(`<div id="html_af8af80d813d4fa3943bd3aebc562c2e" style="width: 100.0%; height: 100.0%;">('Street:', '122 Crespi Ct', 'Beds:', 4, 'Baths:', 4.0, 'Sqft:', 3502, 'Price_Per_Sqft:', 192, 'Year Built:', 1898, 'Trulia Est:', 1713800)</div>`)[0];
+            popup_a1ccdf7091f1482984d940aa10a11474.setContent(html_af8af80d813d4fa3943bd3aebc562c2e);
+        
+
+        marker_7e82fd8218a44dc79aae8181d2d44380.bindPopup(popup_a1ccdf7091f1482984d940aa10a11474)
+        ;
+
+        
+    
+    
+            var marker_9947294e3d184ee4bee203ff87c2cc36 = L.marker(
+                [36.9727291, -122.0220108],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_5a967d00ccc24504860b9d11664e9d47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cf3f5c8a5204d51aeb24975ece54544 = $(`<div id="html_2cf3f5c8a5204d51aeb24975ece54544" style="width: 100.0%; height: 100.0%;">('Street:', '135 Crespi Ct', 'Beds:', 4, 'Baths:', 4.0, 'Sqft:', 2563, 'Price_Per_Sqft:', 146, 'Year Built:', 1952, 'Trulia Est:', 1564910)</div>`)[0];
+            popup_5a967d00ccc24504860b9d11664e9d47.setContent(html_2cf3f5c8a5204d51aeb24975ece54544);
+        
+
+        marker_9947294e3d184ee4bee203ff87c2cc36.bindPopup(popup_5a967d00ccc24504860b9d11664e9d47)
+        ;
+
+        
+    
+    
+            var marker_4e0fe3f5c41843f08c823a09c4ae40f5 = L.marker(
+                [36.972891600000004, -122.042304],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_04fbc97d19814c528d681d9161daaec8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d170e25a90ae45cfb7b96926e408bb81 = $(`<div id="html_d170e25a90ae45cfb7b96926e408bb81" style="width: 100.0%; height: 100.0%;">('Street:', '216 Dimond St', 'Beds:', 5, 'Baths:', 2.0, 'Sqft:', 2968, 'Price_Per_Sqft:', 364, 'Year Built:', 1942, 'Trulia Est:', 1588009)</div>`)[0];
+            popup_04fbc97d19814c528d681d9161daaec8.setContent(html_d170e25a90ae45cfb7b96926e408bb81);
+        
+
+        marker_4e0fe3f5c41843f08c823a09c4ae40f5.bindPopup(popup_04fbc97d19814c528d681d9161daaec8)
+        ;
+
+        
+    
+    
+            var marker_4c89c938f51d4fbaa35cc290ec61f469 = L.marker(
+                [36.949809, -122.05544590000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_e176cc76796947a3a42049efbe0c27fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0767486f124e4090be873eb5eeb447c3 = $(`<div id="html_0767486f124e4090be873eb5eeb447c3" style="width: 100.0%; height: 100.0%;">('Street:', '153 Dufour St', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 2882, 'Price_Per_Sqft:', 643, 'Year Built:', 2008, 'Trulia Est:', 1854000)</div>`)[0];
+            popup_e176cc76796947a3a42049efbe0c27fe.setContent(html_0767486f124e4090be873eb5eeb447c3);
+        
+
+        marker_4c89c938f51d4fbaa35cc290ec61f469.bindPopup(popup_e176cc76796947a3a42049efbe0c27fe)
+        ;
+
+        
+    
+    
+            var marker_e08c38027a844a949327018ec7dbae4b = L.marker(
+                [36.9513237, -122.05442479999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_c60216f7573243ef88b7f81da89d26f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a788b263d9504c6ebfd7eea4e0ddfeac = $(`<div id="html_a788b263d9504c6ebfd7eea4e0ddfeac" style="width: 100.0%; height: 100.0%;">('Street:', '156 Dufour St', 'Beds:', 4, 'Baths:', 2.0, 'Sqft:', 2474, 'Price_Per_Sqft:', 163, 'Year Built:', 1972, 'Trulia Est:', 1852357)</div>`)[0];
+            popup_c60216f7573243ef88b7f81da89d26f3.setContent(html_a788b263d9504c6ebfd7eea4e0ddfeac);
+        
+
+        marker_e08c38027a844a949327018ec7dbae4b.bindPopup(popup_c60216f7573243ef88b7f81da89d26f3)
+        ;
+
+        
+    
+    
+            var marker_5b47a6269ef743a08f930a7e39271bda = L.marker(
+                [36.951781200000006, -122.0541584],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_6a86a51400044d5ea19cfa804cd11964 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_490129c869a849c59563d966901020af = $(`<div id="html_490129c869a849c59563d966901020af" style="width: 100.0%; height: 100.0%;">('Street:', '209 Dufour St', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 2138, 'Price_Per_Sqft:', 180, 'Year Built:', 1973, 'Trulia Est:', 1756839)</div>`)[0];
+            popup_6a86a51400044d5ea19cfa804cd11964.setContent(html_490129c869a849c59563d966901020af);
+        
+
+        marker_5b47a6269ef743a08f930a7e39271bda.bindPopup(popup_6a86a51400044d5ea19cfa804cd11964)
+        ;
+
+        
+    
+    
+            var marker_50570f4f4230400db68c4e79d991c22a = L.marker(
+                [36.9525783, -122.05389209999998],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_132445c2b5d141d9a1a5b23ff5165718 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1bff13b84884e8984e1f40022021556 = $(`<div id="html_c1bff13b84884e8984e1f40022021556" style="width: 100.0%; height: 100.0%;">('Street:', '214 Dufour St', 'Beds:', 3, 'Baths:', 2.5, 'Sqft:', 2445, 'Price_Per_Sqft:', 378, 'Year Built:', 1996, 'Trulia Est:', 1869330)</div>`)[0];
+            popup_132445c2b5d141d9a1a5b23ff5165718.setContent(html_c1bff13b84884e8984e1f40022021556);
+        
+
+        marker_50570f4f4230400db68c4e79d991c22a.bindPopup(popup_132445c2b5d141d9a1a5b23ff5165718)
+        ;
+
+        
+    
+    
+            var marker_8009223b92f34e4999903f30f891e401 = L.marker(
+                [36.951420299999995, -122.04745439999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_4622c32f1ceb4703b47625ebb6a83c61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fc4841a3cb243bc8d056bcf89977714 = $(`<div id="html_4fc4841a3cb243bc8d056bcf89977714" style="width: 100.0%; height: 100.0%;">('Street:', '215 Dufour St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 2316, 'Price_Per_Sqft:', 283, 'Year Built:', 1963, 'Trulia Est:', 1849214)</div>`)[0];
+            popup_4622c32f1ceb4703b47625ebb6a83c61.setContent(html_4fc4841a3cb243bc8d056bcf89977714);
+        
+
+        marker_8009223b92f34e4999903f30f891e401.bindPopup(popup_4622c32f1ceb4703b47625ebb6a83c61)
+        ;
+
+        
+    
+    
+            var marker_61d6d2539db4490abae3878b3ec7ee63 = L.marker(
+                [36.9527693, -122.035688],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_8c2cfbb54c8649edb2f7a3501b2c8929 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed948e7a12164de38142c32d8a06da73 = $(`<div id="html_ed948e7a12164de38142c32d8a06da73" style="width: 100.0%; height: 100.0%;">('Street:', '504 Dufour St', 'Beds:', 4, 'Baths:', 2.5, 'Sqft:', 2425, 'Price_Per_Sqft:', 616, 'Year Built:', 1979, 'Trulia Est:', 1833148)</div>`)[0];
+            popup_8c2cfbb54c8649edb2f7a3501b2c8929.setContent(html_ed948e7a12164de38142c32d8a06da73);
+        
+
+        marker_61d6d2539db4490abae3878b3ec7ee63.bindPopup(popup_8c2cfbb54c8649edb2f7a3501b2c8929)
+        ;
+
+        
+    
+    
+            var marker_1b0ec61d62e74121817d4036144f76f5 = L.marker(
+                [36.951355, -122.0437878],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_5162f88f350942f1a9c3daa678b7aad8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e411fda26a8489da3dcca7d7805c849 = $(`<div id="html_5e411fda26a8489da3dcca7d7805c849" style="width: 100.0%; height: 100.0%;">('Street:', '511 Dufour St', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 2567, 'Price_Per_Sqft:', 584, 'Year Built:', 1987, 'Trulia Est:', 1856384)</div>`)[0];
+            popup_5162f88f350942f1a9c3daa678b7aad8.setContent(html_5e411fda26a8489da3dcca7d7805c849);
+        
+
+        marker_1b0ec61d62e74121817d4036144f76f5.bindPopup(popup_5162f88f350942f1a9c3daa678b7aad8)
+        ;
+
+        
+    
+    
+            var marker_22582537a5514acaa5b5bde222bbede3 = L.marker(
+                [36.9503241, -122.05260459999998],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_838cbcee133d4dd8ac76220ad65cf62e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_207af625ba714aa3935fae7f0e58f0d2 = $(`<div id="html_207af625ba714aa3935fae7f0e58f0d2" style="width: 100.0%; height: 100.0%;">('Street:', '803 E Cliff Dr', 'Beds:', 3, 'Baths:', 2.0, 'Sqft:', 2128, 'Price_Per_Sqft:', 916, 'Year Built:', 1975, 'Trulia Est:', 1966464)</div>`)[0];
+            popup_838cbcee133d4dd8ac76220ad65cf62e.setContent(html_207af625ba714aa3935fae7f0e58f0d2);
+        
+
+        marker_22582537a5514acaa5b5bde222bbede3.bindPopup(popup_838cbcee133d4dd8ac76220ad65cf62e)
+        ;
+
+        
+    
+    
+            var marker_d162a97f0e8940f49c0a16167ba3363d = L.marker(
+                [36.9721391, -122.032824],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_cfedd1880c1349fda8841eabef670178 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e54f2ae9c9a45e495026be7b0d2ee54 = $(`<div id="html_8e54f2ae9c9a45e495026be7b0d2ee54" style="width: 100.0%; height: 100.0%;">('Street:', '20 Eastridge Dr', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 2928, 'Price_Per_Sqft:', 476, 'Year Built:', 1868, 'Trulia Est:', 1592329)</div>`)[0];
+            popup_cfedd1880c1349fda8841eabef670178.setContent(html_8e54f2ae9c9a45e495026be7b0d2ee54);
+        
+
+        marker_d162a97f0e8940f49c0a16167ba3363d.bindPopup(popup_cfedd1880c1349fda8841eabef670178)
+        ;
+
+        
+    
+    
+            var marker_08dbfb22c58e48d49afdc60e75571ca9 = L.marker(
+                [36.9693307, -122.058154],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_4497e30a32a546e09ce0972ca1a8e76d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1af983c1f58e4a6faf096d0e87160072 = $(`<div id="html_1af983c1f58e4a6faf096d0e87160072" style="width: 100.0%; height: 100.0%;">('Street:', '111 Echo St', 'Beds:', 4, 'Baths:', 3.0, 'Sqft:', 3085, 'Price_Per_Sqft:', 311, 'Year Built:', 1989, 'Trulia Est:', 1716043)</div>`)[0];
+            popup_4497e30a32a546e09ce0972ca1a8e76d.setContent(html_1af983c1f58e4a6faf096d0e87160072);
+        
+
+        marker_08dbfb22c58e48d49afdc60e75571ca9.bindPopup(popup_4497e30a32a546e09ce0972ca1a8e76d)
+        ;
+
+        
+    
+    
+            var marker_9505bb1275b74b7f8e0228432b9f5f29 = L.marker(
+                [36.9708845, -122.05775449999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_c621004a0cdb4a4b919fbdf5b2eec3f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56e1f9ec361d44cbb8a3352dc57ad2e0 = $(`<div id="html_56e1f9ec361d44cbb8a3352dc57ad2e0" style="width: 100.0%; height: 100.0%;">('Street:', '115 Echo St', 'Beds:', 6, 'Baths:', 3.0, 'Sqft:', 2912, 'Price_Per_Sqft:', 309, 'Year Built:', 1978, 'Trulia Est:', 1613785)</div>`)[0];
+            popup_c621004a0cdb4a4b919fbdf5b2eec3f1.setContent(html_56e1f9ec361d44cbb8a3352dc57ad2e0);
+        
+
+        marker_9505bb1275b74b7f8e0228432b9f5f29.bindPopup(popup_c621004a0cdb4a4b919fbdf5b2eec3f1)
+        ;
+
+        
+    
+    
+            var marker_45fb6988b68446f2bc15ddb2b758fd3c = L.marker(
+                [36.97234470000001, -122.05766570000002],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_d3c4c2e691d64f919994b202e810d3d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba332466c45448aa9cdfed1368f3d78e = $(`<div id="html_ba332466c45448aa9cdfed1368f3d78e" style="width: 100.0%; height: 100.0%;">('Street:', '116 Echo St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 2658, 'Price_Per_Sqft:', 159, 'Year Built:', 1998, 'Trulia Est:', 1790033)</div>`)[0];
+            popup_d3c4c2e691d64f919994b202e810d3d2.setContent(html_ba332466c45448aa9cdfed1368f3d78e);
+        
+
+        marker_45fb6988b68446f2bc15ddb2b758fd3c.bindPopup(popup_d3c4c2e691d64f919994b202e810d3d2)
+        ;
+
+        
+    
+    
+            var marker_37a856d2318c4facbb571c86472fe06a = L.marker(
+                [36.974891, -122.0587312],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_94f5e11cf5eb4930ae18c41174264fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4421cc6f011b43c7a66729fc6d79e045 = $(`<div id="html_4421cc6f011b43c7a66729fc6d79e045" style="width: 100.0%; height: 100.0%;">('Street:', '200 El Rancho Dr', 'Beds:', 5, 'Baths:', 3.0, 'Sqft:', 2892, 'Price_Per_Sqft:', 259, 'Year Built:', 1985, 'Trulia Est:', 1645017)</div>`)[0];
+            popup_94f5e11cf5eb4930ae18c41174264fe6.setContent(html_4421cc6f011b43c7a66729fc6d79e045);
+        
+
+        marker_37a856d2318c4facbb571c86472fe06a.bindPopup(popup_94f5e11cf5eb4930ae18c41174264fe6)
+        ;
+
+        
+    
+    
+            var marker_7eed8f54c0b34135a18a3756de359470 = L.marker(
+                [36.9671096, -122.05788770000001],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_3d2c5dd5eb174c08804f0083e6cfe00d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40515a3e51a247c587cff47c3774e5c9 = $(`<div id="html_40515a3e51a247c587cff47c3774e5c9" style="width: 100.0%; height: 100.0%;">('Street:', '1606 El Rancho Dr', 'Beds:', 3, 'Baths:', 3.5, 'Sqft:', 2907, 'Price_Per_Sqft:', 138, 'Year Built:', 1990, 'Trulia Est:', 1764462)</div>`)[0];
+            popup_3d2c5dd5eb174c08804f0083e6cfe00d.setContent(html_40515a3e51a247c587cff47c3774e5c9);
+        
+
+        marker_7eed8f54c0b34135a18a3756de359470.bindPopup(popup_3d2c5dd5eb174c08804f0083e6cfe00d)
+        ;
+
+        
+    
+    
+            var marker_9c3d075ffef842eea1ea81104c6d108d = L.marker(
+                [36.953275700000006, -122.0518098],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_5a5b29b4571c4621b06db62b707cf65d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a6d722bf6bd4e44b1f76dded90fa220 = $(`<div id="html_8a6d722bf6bd4e44b1f76dded90fa220" style="width: 100.0%; height: 100.0%;">('Street:', '255 El Refugio Way', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 1822, 'Price_Per_Sqft:', 165, 'Year Built:', 1971, 'Trulia Est:', 1659237)</div>`)[0];
+            popup_5a5b29b4571c4621b06db62b707cf65d.setContent(html_8a6d722bf6bd4e44b1f76dded90fa220);
+        
+
+        marker_9c3d075ffef842eea1ea81104c6d108d.bindPopup(popup_5a5b29b4571c4621b06db62b707cf65d)
+        ;
+
+        
+    
+    
+            var marker_ecbe227696374d348badb5d5c9886d43 = L.marker(
+                [36.9539051, -122.0369313],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_bebf340e39d4450087436a441f6d0ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbc6aff754d04ebdb1f760225d77b91a = $(`<div id="html_dbc6aff754d04ebdb1f760225d77b91a" style="width: 100.0%; height: 100.0%;">('Street:', '314 Elm St', 'Beds:', 3, 'Baths:', 3.0, 'Sqft:', 1626, 'Price_Per_Sqft:', 892, 'Year Built:', 1933, 'Trulia Est:', 1713911)</div>`)[0];
+            popup_bebf340e39d4450087436a441f6d0ee4.setContent(html_dbc6aff754d04ebdb1f760225d77b91a);
+        
+
+        marker_ecbe227696374d348badb5d5c9886d43.bindPopup(popup_bebf340e39d4450087436a441f6d0ee4)
+        ;
+
+        
+    
+    
+            var marker_17a72b3e79204eb79ae3f232eb99d048 = L.marker(
+                [36.956544, -122.03801899999999],
+                {}
+            ).addTo(marker_cluster_e9d0b26dd62e4369b86e1f205d925fc1);
+        
+    
+        var popup_2049f6326e8d45eea242b9a2f5c9c815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36c5ec3745064805806a34a066c9dd53 = $(`<div id="html_36c5ec3745064805806a34a066c9dd53" style="width: 100.0%; height: 100.0%;">('Street:', '311 Emeline Ave', 'Beds:', 3, 'Baths:', 2.0, 'Sqft:', 2378, 'Price_Per_Sqft:', 155, 'Year Built:', 1987, 'Trulia Est:', 1604982)</div>`)[0];
+            popup_2049f6326e8d45eea242b9a2f5c9c815.setContent(html_36c5ec3745064805806a34a066c9dd53);
+        
+
+        marker_17a72b3e79204eb79ae3f232eb99d048.bindPopup(popup_2049f6326e8d45eea242b9a2f5c9c815)
+        ;
+
+        
+    
+</script>
